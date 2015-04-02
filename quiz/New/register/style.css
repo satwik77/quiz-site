@@ -1,0 +1,79 @@
+body{ 
+    margin:0px;
+    padding:0px;
+    background-image: URL('./bg.png');
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.topBar {
+    position:fixed;
+    top:0px;
+    width:100%;
+    height:55px;
+    line-height: 55px;
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 30px;
+    background:#fff;
+    border-bottom: 2px solid #fff;
+    box-shadow: 0px 0px 10px 2px black;
+}
+.reg {
+    position: fixed;
+    top:200px;
+    width:100%;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    color:white;
+    font-size: 100px;
+    font-weight: 800;
+}
+.wrapper {
+    position: fixed;
+    left:500px;
+    top:150px;
+    width:438px;
+    height:450px;
+    background: #eee;
+    border-radius: 15px;
+    box-shadow: 0px 0px 30px 0px black;
+}
+.innerWrapper {
+    width:80%;
+    height:88%;
+    margin: 2%;
+    padding:4% 8%;
+    background: transparent;
+    border: 1px dashed #666;
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #444;
+    font-size: 14px;
+}
+.field {
+    height:30px;
+    width:330px;
+    border: 1px solid #ccc;
+    box-shadow: -1px -1px 1px 0px #ddd inset;
+    border-radius: 5px;
+    margin: 2px 0px 10px 0px;
+    outline: none;
+    color: firebrick;
+    font-size: 20px;
+    font-weight: 300;
+    padding-left: 10px;
+}
+.submit {
+    float:right;
+    border-radius: 5px;
+    outline:none;
+    border: 0px;
+    width:120px;
+    margin-top: 10px;
+    margin-right: 6px;
+    padding: 12px;
+    background: crimson;
+    color:white;
+    font-size: 18px;
+    border: 1px solid 
+}
